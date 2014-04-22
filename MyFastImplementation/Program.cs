@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using FastMember;
+using MyFastMember;
 
-namespace MyFast_member
+namespace MyFastImplementation
 {
     class Program
     {
-        
         static void Main(string[] args)
         {
             var obj = new TestClass();
@@ -27,7 +26,5 @@ namespace MyFast_member
             Console.WriteLine("End a program");
             Console.ReadLine();
         }
-
-    
     }
 }
